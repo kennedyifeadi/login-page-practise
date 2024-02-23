@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 47%;
+    border-radius: 20px;
+    row-gap: 10px;
+    background-color: rgb(228, 222, 222);
+}
+h2{
+    padding-top: 10px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 20%;
+    background-color:rgb(76, 76, 247);
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+input{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    height: 15%;
+    width: 60%;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    background-color:transparent;
+}
+.box_1{
+    padding-left: 20px;
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.box__1{
+    display: flex;
+    width: 50%;
+
+}
+#box{
+    height: 15px;
+    margin-left: -5px;
+}
+label h5{
+    width: max-content;
+    margin-right: 70px;
+}
+a{
+    color: black;
+    font-size: 14px;
+}
+a:hover{
+    color: gray;
+}
+#btn{
+    height: 12%;
+    width: 70%;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 15px;
+
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+span{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+span a{
+    align-self: center;
+    color: blue;
+}
+span a:hover{
+    color: rgb(44, 44, 165);
+}
